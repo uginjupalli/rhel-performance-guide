@@ -264,6 +264,9 @@ perf trace -e 'syscalls:sys_enter_sem*' \
 ##
 test
 ##
+##
+second test
+##
 ```
 # Report page migrations
 perf stat -e migrate:mm_migrate_pages -I 2000 -p PID
