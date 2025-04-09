@@ -261,7 +261,9 @@ strace -CfttTy -e trace=%ipc COMMAND
 perf trace -e 'syscalls:sys_enter_sem*' \
   -e 'syscalls:sys_enter_msg*' -e 'syscalls:sys_enter_shm*' COMMAND
 ```
-
+##
+test
+##
 ```
 # Report page migrations
 perf stat -e migrate:mm_migrate_pages -I 2000 -p PID
